@@ -29,3 +29,10 @@ it('Leave the email field blank to see if an user can login', () => {
   cy.get('#submit').click()
   cy.contains('Incorrect username or password').should ('exist')
 });
+
+
+
+
+
+
+cat
