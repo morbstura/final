@@ -35,4 +35,3 @@ it('Leave the email field blank to see if an user can login', () => {
 
 
 
-cat
