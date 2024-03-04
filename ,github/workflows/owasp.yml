@@ -1,4 +1,4 @@
-name: baseline-scan
+name: owasp scan
 on: push
 jobs:
   scan:
