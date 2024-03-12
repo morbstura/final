@@ -11,16 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Cypress run
+        uses: cypress-io/github-actions@v5
 
 
-      name: baseline-scan
-on: push
-jobs:
-  scan:
-    runs-on: ubuntu-latest
-    name: scanning app
-    steps:
-      - name: main page
-        uses: actions/checkout@v2
-      - name: ZAP Base Scan
-        uses: zaproxy/action-baseline@v0.9.0
+  
