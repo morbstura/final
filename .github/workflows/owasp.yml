@@ -6,7 +6,7 @@ jobs:
     name: scanning app
     steps:
       - name: Checkout Main Page
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
       - name: ZAP Full Scan
         uses: zaproxy/action-baseline@v0.9.0
         with:
